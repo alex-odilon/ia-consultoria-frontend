@@ -1,0 +1,9 @@
+services:
+  frontend:
+    container_name: ia-frontend
+    build: .
+    ports:
+      - "3000:3000"
+    restart: always
+#    stdin_open: true
+#    tty: true
